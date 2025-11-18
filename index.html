@@ -5,6 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Команда 2АКІТР-25б - Лабораторна робота № 2</title>
+
+    <style>
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
 
 <body>
@@ -156,12 +174,11 @@
             <p>У цьому розділі представлено відео та аудіо, що відображають мої інтереси у сфері автоматизації та робототехніки.</p>
 
             <h5>Відео: Getting Started with Arduino</h5>
-            <div style="text-align: center;">
-                <iframe width="640" height="360"
+            <div class="video-container">
+                <iframe
                     src="https://www.youtube.com/embed/fJWR7dBuc18"
                     title="Getting Started with Arduino"
                     frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
                 </iframe>
             </div>
